@@ -1,0 +1,169 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+/* Navigation Bar */
+.navbar{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+ 
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+.navbar-logo .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #333;
+  white-space: nowrap;
+}
+
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 90px;
+  margin-left: auto;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  color: #0077cc;
+}
+
+/* Hero Section */
+.hero h1{
+  font-size: 26px;
+  line-height: 32px;
+  color:#333;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.hero p{
+  font-size: 14px;
+  line-height: 18px;
+  color:#333;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-section{
+  background-image: url(./images/4872987.jpg);
+  background-repeat: no-repeat;
+  width:100%;
+  height:100vh;
+  padding:0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.hero-section h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-size:60px;
+  width:400px;
+  text-transform: capitalize;
+  padding:14px;
+  color:#2d2d2d;
+}
+.hero-section p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width:400px;
+  padding:30px 0px;
+  margin-bottom: 30px;
+  color:#2d2d2d;
+}
+
+
+.hero-img img{
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.hero-section button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display:inline-block;
+  font-size:20px;
+  font-weight:400;
+  margin:0 .5em;
+  height:55px;
+  min-width: 180px;
+  border-radius: 50px;
+  color:#f0ebeb;
+}
+
+/* About Me */
+.about-section {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #f9f9f9; 
+  min-height: 60vh; 
+  background-image: url(./images/4872987.jpg);
+  background-color: no-repeat;
+}
+
+.about-container {
+  max-width: 800px;
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-left:10%;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+
+
